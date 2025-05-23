@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>图片拼接</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: #fff;
+    }
+    table {
+      margin: 0 auto;         /* 居中 table */
+      border-collapse: collapse;
+      border-spacing: 0;
+      padding: 0;
+      border: none;
+      max-width: 100%;
+    }
+    td {
+      padding: 0;
+      margin: 0;
+      border: none;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: none;
+    }
+    .image-container {
+      position: relative;
+      width: 100%;
+    }
+    .image-container a {
+      position: absolute;
+      display: block;
+    }
+    .clickable-area{
+        position: absolute;
+        display: block;
+        z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr><td><img src="https://qty83k.creatby.com/materials/207924/origin/50278d468150c0a4f7ccfad312be0c52_origin.jpg" /></td></tr>
+    <tr><td><img src="https://qty83k.creatby.com/materials/207924/origin/1163e76b41d56ef3e999c939305a50b6_origin.jpg" /></td></tr>
+    <tr>
+        <td style="position: relative;">
+            <img src="https://qty83k.creatby.com/materials/207924/origin/498aff2b99c2b23ce828c21f6c1706f3_origin.jpg" alt="第三张图" />
+            <!-- 四个按钮跳转的区域 -->
+            <a href="https://qty83k.creatby.com/materials/207924/origin/ffbeaeca875dc73eccb6582a3ad8b8b0_origin.jpg" 
+            class="clickable-area" target="_blank" style="top:15%;left: 44%;width: 10%;height: 15%;"></a>
+            <a href="https://qty83k.creatby.com/materials/207924/origin/802d0167bfd2df4c1bafcf09a0c83f9d_origin.jpg" 
+            class="clickable-area" target="_blank" style="top:30%;right: 3%;width: 10%;height: 15%;"></a>
+            <a href="https://qty83k.creatby.com/materials/207924/origin/c1453ab7c18d62fd02bd79f7fb01f8aa_origin.gif" 
+            class="clickable-area" target="_blank" style="top:38%;right: 15%;width: 10%;height: 15%;"></a>
+            <a href="https://qty83k.creatby.com/materials/207924/origin/af72f379fcbb09e9906d85045f6af5f3_origin.jpg" 
+            class="clickable-area" target="_blank" style="top:48%;right: 26%;width: 10%;height: 15%;"></a>
+     </tr>
+    <tr><td><img src="https://raw.githubusercontent.com/longjiawen/image-hosting/main/0519-%E5%A4%A7%E5%AE%9D%E7%A4%BC%E7%9B%92%E6%8E%A8%E6%96%87-%E4%B8%AD%E6%96%87_01.png" /></td></tr>
+
+    <tr>
+        <td style="position:relative">
+            <img src="https://raw.githubusercontent.com/longjiawen/image-hosting/main/0519-%E5%A4%A7%E5%AE%9D%E7%A4%BC%E7%9B%92%E6%8E%A8%E6%96%87-%E4%B8%AD%E6%96%87_02.png" alt="第四张图"/>
+            <a href="https://youtu.be/VttWoy3IXYI"
+            class="clickable-area" target="_blank" style="top:30%;left: 37%;width: 25%;height: 45%;"></a>
+    </td></tr>
+    
+
+    <tr><td><img src="https://raw.githubusercontent.com/longjiawen/image-hosting/main/0519-%E5%A4%A7%E5%AE%9D%E7%A4%BC%E7%9B%92%E6%8E%A8%E6%96%87-%E4%B8%AD%E6%96%87_03.png" /></td></tr>
+    <tr><td><img src="https://raw.githubusercontent.com/longjiawen/image-hosting/main/0519-%E5%A4%A7%E5%AE%9D%E7%A4%BC%E7%9B%92%E6%8E%A8%E6%96%87-%E4%B8%AD%E6%96%87_04.png" /></td></tr>
+    <tr><td><img src="https://raw.githubusercontent.com/longjiawen/image-hosting/main/0519-%E5%A4%A7%E5%AE%9D%E7%A4%BC%E7%9B%92%E6%8E%A8%E6%96%87-%E4%B8%AD%E6%96%87_05.png" /></td></tr>
+  </table>
+</body>
+</html>
